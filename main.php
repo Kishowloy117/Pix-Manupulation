@@ -108,10 +108,14 @@
       </li>
       <li class="nav-item">
       <input type="file" name="inpfile" , id="inpfile">
-      <form class="form-inline my-2 my-lg-0">
-    <input type="text" class="form-control mr-sm-2" type="search" placeholder="Search" id="urltoimg">
+      <!-- <form class="form-inline my-2 my-lg-0"> -->
+      <div class="form-inline my-2 my-lg-0">
+      <input type="text" class="form-control mr-sm-2" type="search" placeholder="Search" id="urltoimg">
     <button id="url" class="btn btn-outline-success my-2 my-sm-0"> Search</button>
-    </form>
+
+      </div>
+    
+    <!-- </form> -->
       </li>
     </ul>
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popupwindow" id="signin">SIGN IN</button>
